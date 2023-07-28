@@ -1,0 +1,21 @@
+{
+  "name": "@yoomiraa/mira-api",
+  "version": "0.0.1",
+  "description": "just a random package made by Mira",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/yoomiraa/mira-api"
+  },
+  "author": "Mira",
+  "license": "ISC",
+  "publishConfig": {
+    "@yoomiraa:registry": "https://npm.pkg.github.com/"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
