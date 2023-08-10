@@ -1,4 +1,10 @@
+let module;
+if (typeof module !== 'undefined' && module.exports) {
+  module = require('./lib/cjs');
+} else {
+  // ESM environment
+  module = import('./lib/esm');
+}
 
-
-
-module.exports.tools = require('./lib/tools.js')
+// Export the tools module
+module.exports = module;
