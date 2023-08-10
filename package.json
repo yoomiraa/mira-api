@@ -17,5 +17,13 @@
   },
   "directories": {
     "lib": "lib"
+  },
+  "exports": {
+    ".": {
+      "node": "./index.js",
+      "default": "./lib/esm/index.mjs"
+    },
+    "./lib/cjs/": "./lib/cjs/index.js", 
+    "./lib/esm/": "./lib/esm/index.mjs"
   }
 }
